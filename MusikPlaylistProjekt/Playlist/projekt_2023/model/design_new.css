@@ -1,0 +1,256 @@
+*:not(button) {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ body {
+margin: 0;
+margin-top:1rem;
+background: linear-gradient(to right, #001110, #003D39, #299393, #003D39, #001110); 
+/* background-image: url('../gif/giDf_01.gif'); */
+background-size: 100% 1980px;
+
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+th {
+    background-color: #CCCCCC;
+}
+
+
+.ueberschriften{
+    background-color: #0D9666 !important;
+}
+
+.ueberschriften2{
+    background-color: #B720EB !important;
+}
+
+.ueberschriften3{
+    background-color: #227FAE !important;
+
+
+
+}
+
+.button-image{
+    margin-right:2rem;
+    font-size:1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button-image2{
+    margin-right:2rem;
+    font-size:1rem;
+    background-color: transparent;
+    border: none;
+    opacity:0.125;
+
+}
+
+.button-image3{
+    margin-right:2rem;
+    font-size:1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute; right: 0;
+
+}
+
+
+
+.cover2{
+    background-image: url(../img/img_28.png);
+    background-size: cover;
+    height:25.9rem; 
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    /* margin-top: 5rem; */
+}
+
+
+.cover3{
+    background-image: url(../img/img_28.png);
+    background-size: cover;
+    height:25.9rem; 
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+}
+
+.cover4{
+    background-image: url(../img/img_62.png);
+    background-size: cover;
+    height:25.9rem; 
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    /* margin-top: 5rem; */
+}
+
+
+.cover5{
+    background-image: url(../img/img_62.png);
+    background-size: cover;
+    height:25.9rem; 
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+}
+
+.cover6{
+    background-image: url(../img/img_65.png);
+    background-size: cover;
+    height:25.9rem; 
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+}
+
+.cover7{
+    background-image: url(../img/img_66.png);
+    background-size: cover;
+    height:25.9rem; 
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    /* margin-top: 5rem; */
+}
+
+
+.cover8{
+    background-image: url(../img/img_66.png);
+    background-size: cover;
+    height:25.9rem; 
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+}
+
+.cover9{
+    background-image: url(../img/img_67.png);
+    background-size: cover;
+    height:25.9rem; 
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    /* margin-top: 5rem; */
+}
+
+
+.cover10{
+    background-image: url(../img/img_67.png);
+    background-size: cover;
+    height:25.9rem; 
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+}
+
+.button-image {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent; /* This line removes the background color */
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+  }
+
+
+
+
+.impress{
+    color:white;
+}
+
+.clickMe{
+    
+    background-color:#150722;
+    border-radius: 1.75rem;
+       opacity: 1;
+}  
+    
+.clickMe:hover{
+    box-shadow: 0 0 30px red;
+animation: glow 1s ease-in-out infinite alternate;
+    
+    opacity: 0.85;
+}
+
+.clickMe2{
+    
+    /* background-color:#e0206d; */
+    border-radius: 1.75rem;
+       opacity: 1;
+}  
+    
+.clickMe2:hover{
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+animation: glow 1s ease-in-out infinite alternate;
+
+    opacity: 0.85;
+}
+
+.Available{
+    
+    background-color:#963122;
+    border-radius: 1.75rem;
+        opacity: 1;
+}  
+    
+.Available:hover{
+        box-shadow: 0 0 30px yellow;
+    animation: glow 1s ease-in-out infinite alternate;
+        
+        opacity: 0.85;
+}
+
+.notAvailable{
+    background-color:#963122;
+border-radius: 1.75rem;
+
+    
+    
+    opacity: 0.25;
+}
+
+audio::-webkit-media-controls-panel {
+    
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    background-color: #dbdbdb;
+    color: #fff;
+  }
+  
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #0de2d8;
+  }
+
+
+
+
+  

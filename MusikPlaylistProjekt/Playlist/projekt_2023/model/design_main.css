@@ -1,0 +1,146 @@
+*:not(button) {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, #001110, #003D39, #299393, #003D39, #001110); 
+    /* background-image: url('../gif/gif_01.gif'); */
+    /* background-repeat: no-repeat; */
+    background-size: 100% 1020px;
+    
+}
+
+
+.titel {
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    
+    padding-top: 2rem;
+    padding-left: 7rem;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    background-image: url(../img/img_13.png);
+}
+
+.cover{
+    background-image: url(../img/img_17.png);
+    background-size: cover;
+    
+    height:30rem; 
+    max-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+    
+
+}
+
+.cover:hover {
+    background-image: url(../img/img_18.png);
+    
+    
+}
+
+@media (max-height: 50vh) {
+    .cover{
+        background-image: url(../img/img_13.png);
+
+    }
+    
+
+}
+
+.titel:hover {
+    background-image: url(../img/img_14.png);
+    
+}
+.cover2{
+    background-image: url(../img/img_28.png);
+    
+    background-size: cover;
+    height:25.9rem; 
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+}
+
+
+
+
+.clickable{
+    
+   opacity: 1;
+}  
+
+.clickable:hover{
+    box-shadow: 0 0 30px #fff;
+animation: glow 1s ease-in-out infinite alternate;
+border-radius: 0.75rem;
+    
+    opacity: 0.85;
+}
+
+.mainClick{
+    
+    opacity: 1;
+}  
+ 
+.mainClick:hover{
+     box-shadow: 0 0 30px #fff;
+ animation: glow 1s ease-in-out infinite alternate;
+ border-radius: 3.75rem;
+     
+     opacity: 0.85;
+ }
+
+.clickMe{
+    
+background-color:#150722;
+border-radius: 1.75rem;
+   opacity: 1;
+}  
+
+.clickMe:hover{
+    box-shadow: 0 0 30px red;
+animation: glow 1s ease-in-out infinite alternate;
+    
+    opacity: 0.85;
+}
+
+.Available{
+    
+    background-color:#963122;
+    border-radius: 1.75rem;
+       opacity: 1;
+}  
+    
+.Available:hover{
+        box-shadow: 0 0 30px yellow;
+    animation: glow 1s ease-in-out infinite alternate;
+        
+        opacity: 0.85;
+}
+
+.notAvailable{
+    background-color:#963122;
+border-radius: 1.75rem;
+
+    
+   
+   opacity: 0.25;
+}  
+
+
+.over{
+   
+    overflow: hidden;
+}  
+

@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:lighter;
+    text-shadow: 1px 1px 1px #333;
+}
+
+body{
+    background-color: rgb(231, 230, 229);
+    color:black;
+    background-image: url('../img/weather_01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(36, 93, 216);
+    width:100%;
+    padding: 1rem;
+    color:white;
+    margin-bottom: 1rem;
+    font-weight:bold;
+}
+
+#mainBlock{
+    padding: 1rem;
+}
+
+#subBlock1{
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 4rem;
+    text-align: center;
+    color:white;
+    margin-top: 5rem;
+    width: 100%;
+    position: relative;
+    top:22%;
+    left:5.5%;
+}
+
+
+#subBlock2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem;
+    text-align: center;
+    color:white;
+}
+
+.result{
+    color:white;
+    width: 14rem;
+    background-color: #000000;
+    margin-right: 12rem;
+    border-radius: 2rem;
+    border: 2px solid yellow;
+    opacity: 80%;
+
+}
+
+#buttonBlock{
+    position: absolute;
+    top: 12%;
+    left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.custom-select {
+    width: 50rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    font-size:2rem;
+    border-radius: 2rem;
+    border: 2px solid yellow;
+  
+
+}
+
+select::-webkit-scrollbar {
+    width: 12px;
+  }
+
+select::-webkit-scrollbar-thumb {
+    background-color: rgb(224, 228, 24);
+    border-radius: 4rem;
+    
+}
+
+select::-webkit-scrollbar-track {
+    border-radius: 4rem;
+    background-color: rgb(0, 0, 0,0.5);
+    
+}
+
+.custom-select option{
+    margin-bottom: 0.5rem;
+}
+
+button{
+    background-color: rgb(36, 93, 216);
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight:bold;
+    background-size:30vh;
+    margin-right:4rem;
+}
+
+button:hover{
+    background-color: crimson;
+    color: burlywood;
+    font-weight:bold;
+}
+
+.button{
+    background-color: rgb(36, 93, 216);
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight:bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    text-shadow: 1px 1px 1px #333;
+    text-decoration: none;
+}
+
+select option {
+    background-color: rgb(0, 0, 0,0.5);
+    color:rgb(224, 228, 24);
+}
+
+select option:hover {
+    background-color: rgba(207, 181, 181, 0.5);
+    color:rgb(34, 34, 33);
+}
+
+select option:checked{
+background-color: rgb(19, 117, 80);
+color:rgb(9, 255, 0);
+opacity: 100% !important;
+}
+
+.underlined {
+    text-decoration: underline;
+  }
+
+.header{
+    color:rgb(224, 228, 24);
+    font-size: 1.5rem;
+    background-color: rgba(255, 0, 0, 0.5);
+    display: block;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.ctx{
+    background-color:'rgba(255, 255, 255, 0.8)';
+    border:'2px solid rgb(224, 228, 24)';
+    border-radius:'1rem';
+
+}
+
+.divCtx{
+    width:'50rem';
+    height:'50rem';
+    margin-top:'22rem';
+
+}
+
+
+

@@ -1,0 +1,88 @@
+Mini-Projekt-Tasks
+
+1)
+Erstelle die Klasse Feld (orientiere dich am Klassendiagramm)
+
+2)
+Erstelle ein mehrdimensionales Array mit 10x10 Feldern. 
+Der Wert in jedem Feld soll der Index sein.
+
+3) 
+Schreibe eine Funktion um von einem beliebigen Feld 
+alle möglichen Nachbarfelder (id's) zu erhalten.
+function getNeighbors( id )
+
+4)
+Schreibe eine Klasse für Stacks
+
+5) 
+Schreibe eine Funktion Test
+Teste die Funktion aus Task 3
+
+6-a)
+Wir benötigen eine Funktion um aus einer ID eine X,Y Koordinate zu berechnen
+getCoordFromId( id )
+6-b
+Wir benötigen eine Funktion um aus einer X,Y Koordinate eine ID zu berechnen
+getIdFromCoord( x,y )
+
+7)
+Wir benötigen eine Funktion um aus den möglichen 
+Nachbarfeldern ein zufälliges Feld zu berechnen
+getRandomNeighbor( neighbors (Aufgabe 3) )
+
+8)
+Erweitere die Funktion Test
+- Teste in dieser Funktion die Rückgaben der 
+	drei Funktionen (getNeighbors, getIdFromCoord und getCoordFromId)
+	
+9 - OPTIONAL)
+Erstelle ein Datenbank ER-Diagramm:
+Wir haben Spieler, Highscores und Spielwelten. 
+Spieler haben Namen, Highscores haben Spieler und Spielwelt-IDs,
+In der Spielwelt soll der generierte Aufbau der des Labyrinths aufgezeichnet werden. 
+Denke an die 3. Normalform
+
+10)
+Implementiere den Backtrack Algorithmus um alle Felder miteinander zu verbinden.
+
+- Schritte:
+	1 - erzeuge eine Variable visited vom Typ Array
+	2 - erzeuge eine Variable stack vom Typ Stack
+	
+	3 - Wähle eine zufällige FeldID zum Starten (currentField)
+	
+	4 - Schreibe currentField in visited
+	5 - Schreibe currentField in stack
+	6 - Hole alle Nachbarfelder (neighbors)
+	7 - Entferne alle Nachbarfelder die schon in visited vorkommen
+	8 - Keine Nachbarn übrig? Gehe zu 20
+	9 - Wähle ein zufälliges Feld aus neighbors ( parseInt( neighbors.length * Math.random() ) )
+	10 - Gehe zu 4
+	
+	20 - Nimm den obersten Eintrag von stack und setze currentField
+	21 - Kein Eintrag übrig? ENDE
+	22 - Gehe zu 4
+	
+11)
+Erzeuge ein neues mehrdimensionales Array
+Befülle jedes Feld mit dem Typ Feld
+
+12)
+Nutze den Backtrack-Algorithmus
+Verbinde alle Felder miteinander.
+
+13)
+Erstelle einen HTTP-Server
+
+14)
+Erstelle ein HTML-Dokument mit einem Canvas
+
+15)
+Erstelle ein JavaScript um auf dem Canvas (14) ein Raster zu erzeugen
+
+16)
+Nutze das JavaScript um vom HTTP-Server die erzeugte Spielwelt zu erhalten (JSON Stringify, JSON Parse)
+
+17)
+Erstelle eine Klasse Player (Klassendiagramm folgt)
